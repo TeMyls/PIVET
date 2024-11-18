@@ -1,7 +1,10 @@
 # Program for Image and Video Editing in Tkinter
 ### A basic GUI application using MoviePy, Pillow, OpenCV, and default Python modules
+
+By TeMyls
+
 It uses Python's default Graphics User Interface, Tkinter, OpenCV's python module, the Python Imaging Library, or PIL, MoviePy, and Numpy.</br>
-Uses Tkinter and code from this ![repository](https://github.com/TeMyls/Simple-Scripts/tree/main/File%20Manipulation) to make a simple app. </br>
+Uses Tkinter and a bit of code from my other ![repository](https://github.com/TeMyls/Simple-Scripts/tree/main/File%20Manipulation) to make a simple app. </br>
 
 ### The latest version can deal with several file types.
 * mp4
@@ -35,7 +38,7 @@ The result</br>
 
 The original video used from YouTube is ![Homies Home](https://www.youtube.com/watch?v=E89ljGCszEY)
 
-Thanks to </br>
+Big Thanks to </br>
 <https://tkdocs.com/tutorial/menus.html></br>
 <https://www.geeksforgeeks.org/python-menu-widget-in-tkinter></br>
 <https://pythonassets.com/posts/menubar-in-tk-tkinter/></br>
