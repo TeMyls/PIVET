@@ -34,9 +34,10 @@ Uses Tkinter and a bit of code from my other ![repository](https://github.com/Te
 ![GUI Image 2](https://github.com/TeMyls/PIVET/blob/main/PIVET.PNG)</br>
 
 The result</br>
-![Output GIF](https://github.com/TeMyls/PIVET/blob/main/scatter.gif)
+![Output GIF](https://github.com/TeMyls/PIVET/blob/main/scatter.gif)</br>
 
-The original video used from YouTube is ![Homies Home](https://www.youtube.com/watch?v=E89ljGCszEY)
+The original video used from YouTube is ![Homies Home](https://www.youtube.com/watch?v=E89ljGCszEY)</br>
+install_requirements.py is from ![here](https://github.com/burakunutmaz/Pyint_Pixel-Painter) by burakunutmaz</br>
 
 Big Thanks to </br>
 <https://tkdocs.com/tutorial/menus.html></br>
