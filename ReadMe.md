@@ -28,10 +28,12 @@ Uses Tkinter and code from this ![repository](https://github.com/TeMyls/Simple-S
 
 </br> This page is the main page fot the application an extensive history of it's development and an older version can be found ![here](https://github.com/TeMyls/Apps/tree/main/Tkinter%20File%20Manipulation)
 </br> PIVET.py and FileManip.py are the same file, just changed to suit the acronym I came up with.
-![GUI Image 2]()</br>
+![GUI Image 2](https://github.com/TeMyls/PIVET/blob/main/PIVET.PNG)</br>
 
 The result</br>
-![Output GIF]()
+![Output GIF](https://github.com/TeMyls/PIVET/blob/main/scatter.gif)
+
+The original video used from YouTube is ![Homies Home](https://www.youtube.com/watch?v=E89ljGCszEY)
 
 Thanks to </br>
 <https://tkdocs.com/tutorial/menus.html></br>
