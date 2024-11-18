@@ -1,5 +1,4 @@
 # Program for Image and Video Editing in Tkinter
-### A basic GUI application using MoviePy, Pillow, OpenCV, and default Python modules
 
 By TeMyls
 
