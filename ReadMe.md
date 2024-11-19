@@ -17,13 +17,13 @@ Uses Tkinter and a bit of code from my other ![repository](https://github.com/Te
 * tiff
 * bitmap
 
-## These formats can be 
+### These formats can be 
 * Converted to others
 * Have their times cut
-* Be cropped to a specific size,
+* Be cropped to a specific size
 * Have their audio edited
 * Be resized
-* Have specific frames extracted from them.
+* Have specific frames extracted from them
 * Have their bitrate edited
 
 
