@@ -26,9 +26,10 @@ and a bit of code from my other ![repository](https://github.com/TeMyls/Simple-S
 * Have specific frames extracted from them
 * Have their bitrate edited
 
+</br> To crop a video/gif drag with the right mouse button, clear crop coordinates with the left mouse button, zoom in with the mouse wheel and have crop selected in order for changes to apply when made. 
 
 
-</br> This page is the main page fot the application an extensive history of it's development and an older version can be found ![here](https://github.com/TeMyls/Apps/tree/main/Tkinter%20File%20Manipulation)
+</br> This page is the main page for the application an extensive history of it's development and an older version can be found ![here](https://github.com/TeMyls/Apps/tree/main/Tkinter%20File%20Manipulation)
 </br> PIVET.py and FileManip.py are the same file, just changed to suit the acronym I came up with.
 ![GUI Image 2](https://github.com/TeMyls/PIVET/blob/main/PIVET.PNG)</br>
 
