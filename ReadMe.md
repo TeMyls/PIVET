@@ -2,8 +2,8 @@
 
 By TeMyls
 
-It uses Python's default Graphics User Interface, Tkinter, OpenCV's python module, the Python Imaging Library, or PIL, MoviePy, and Numpy.</br>
-Uses Tkinter and a bit of code from my other ![repository](https://github.com/TeMyls/Simple-Scripts/tree/main/File%20Manipulation) to make a simple app. </br>
+It uses Python's default Graphics User Interface, Tkinter, OpenCV's python module, the Python Imaging Library, or PIL, MoviePy, Numpy</br>
+and a bit of code from my other ![repository](https://github.com/TeMyls/Simple-Scripts/tree/main/File%20Manipulation) to make a simple app. </br>
 
 ### The latest version can deal with several file types.
 * mp4
