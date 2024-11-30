@@ -17,14 +17,20 @@ def install(package):
 required = []
 failed = []
 
-# Try to open reqirements.txt file and read all required packages
+# Try to open reqirements.txt file and read all required packages # TODO fix this critical misspelling
 try:
-    file = open("requirements.txt", "r")
+    file = open("requirements.txt", "r")  # TODO use constants
     file_lines = file.readlines()
     required = [line.strip().lower() for line in file_lines]
     file.close()
 except FileNotFoundError:
     print("[ERROR] No requiremnts.txt file found")
+
+# TODO Why not just crash the code and let user's install packages in their own way?
+#   Maybe my packages are not in the standard places.  Maybe I'm using a venv.
+#   You could just list the packages needed for your app and list the pip install commands.
+# TODO Do I need particular versions of packages or can I install the most current versions?
+# TODO Finally, and most important, use a build tool (Gradle or Maven) and it will install as needed.
 
 if len(required) > 0:
     print("[INPUT] You are about to install", len(required), "packages, would you like to proceed (y/n):", end=" ")

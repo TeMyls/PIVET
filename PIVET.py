@@ -22,6 +22,7 @@ def path_correction(file_path):
     return file_path
 
 class Application(tk.Tk):
+    # TODO Use separation of concerns by writing functions for each menu section and call those functions in __init__.
     def __init__(self):
         super().__init__()
         self.title("PIVET")
@@ -126,7 +127,8 @@ class Application(tk.Tk):
         
     
     def open_files(self):
-        
+
+        # TODO Use an enumerated type or a dict
         filetypes = [
                     #("All files", "*.*"),
                     ("mp4 files", "*.mp4"), 
@@ -388,7 +390,9 @@ class BarProgress(ttk.Frame):
 class ParameterSelection(ttk.Frame):
     def __init__(self, parent, completion_bar):
         super().__init__(parent)
-        
+
+        # TODO Use enumerated types.
+
         self.static_filetypes = ['png', 'jpg', 'jpeg','webp', 'tiff', 'tif', 'webp', 'bmp']
         self.animated_filetypes =  ["mp4", "mov", "webm", "gif", "avi", "mkv"] 
         
@@ -489,8 +493,9 @@ class ParameterSelection(ttk.Frame):
                 
     def get_extension(self):
         if self.ext_checkbool.get():
-        
-         
+
+            # TODO The extension doesn't include the period.
+
             return "." + self.ext_combobox.get()  
           
             
@@ -527,6 +532,7 @@ class ParameterSelection(ttk.Frame):
         if self.current_ext not in self.static_filetypes:
             self.convert_to_combobox["values"] = self.convert_to_options[self.current_ext]
         else:
+            # TODO Use your enumerated types.
             self.convert_to_combobox["values"] = (  "No Change",
                                                     "mp4",
                                                     "mov",                 
@@ -689,7 +695,8 @@ class ParameterSelection(ttk.Frame):
         
         
         #Parameters
-        self.convert_to_combobox = ttk.Combobox(self, width = 15,  textvariable = tk.StringVar()) 
+        # TODO Use your enumerated types.
+        self.convert_to_combobox = ttk.Combobox(self, width = 15,  textvariable = tk.StringVar())
         self.convert_to_combobox["values"] = (  "No Change",
                                                 "mp4",
                                                 "mov",                 
@@ -2762,3 +2769,16 @@ if __name__ == "__main__":
     #app.geometry("800x600")
     app.resizable()
     app.mainloop()
+
+# TODO Use a Python style guide or a linter
+#   https://peps.python.org/pep-0008/
+#   https://google.github.io/styleguide/pyguide.html
+
+# TODO You need to write unit tests.
+
+# TODO After you refactor based on all my current TODOs, I'll do another review where
+#   You'll consider system arhitecture like maybe MVC to separate state and UI.
+#   You'll consider UI testing.
+
+# TODO By the way, what IDE are you using?  IntelliJ's PyCharm?
+# TODO Push a .gitignore
