@@ -3,7 +3,7 @@
 By TeMyls
 
 It uses Python's default Graphics User Interface, Tkinter, OpenCV's python module, the Python Imaging Library, or PIL, MoviePy, Numpy</br>
-and a bit of code from my other ![repository](https://github.com/TeMyls/Simple-Scripts/tree/main/File%20Manipulation) to make a simple app. </br>
+and a bit of code from my other [repository](https://github.com/TeMyls/Simple-Scripts/tree/main/File%20Manipulation) to make a simple app. </br>
 
 ### The latest version can deal with several file types.
 * mp4
@@ -29,15 +29,15 @@ and a bit of code from my other ![repository](https://github.com/TeMyls/Simple-S
 </br> To crop a video/gif drag with the right mouse button, clear crop coordinates with the left mouse button, zoom in with the mouse wheel and have crop selected in order for changes to apply when made. 
 
 
-</br> This page is the main page for the application an extensive history of it's development and an older version can be found ![here](https://github.com/TeMyls/Apps/tree/main/Tkinter%20File%20Manipulation)
+</br> This page is the main page for the application an extensive history of it's development and an older version can be found [here](https://github.com/TeMyls/Apps/tree/main/Tkinter%20File%20Manipulation)
 </br> PIVET.py and FileManip.py are the same file, just changed to suit the acronym I came up with.
 ![GUI Image 2](https://github.com/TeMyls/PIVET/blob/main/PIVET.PNG)</br>
 
 The result</br>
 ![Output GIF](https://github.com/TeMyls/PIVET/blob/main/scatter.gif)</br>
 
-The original video used from YouTube is ![Homies Home](https://www.youtube.com/watch?v=E89ljGCszEY)</br>
-install_requirements.py is from ![here](https://github.com/burakunutmaz/Pyint_Pixel-Painter) by burakunutmaz</br>
+The original video used from YouTube is [Homies Home](https://www.youtube.com/watch?v=E89ljGCszEY)</br>
+install_requirements.py is from [here](https://github.com/burakunutmaz/Pyint_Pixel-Painter) by burakunutmaz</br>
 
 Big Thanks to </br>
 <https://tkdocs.com/tutorial/menus.html></br>
