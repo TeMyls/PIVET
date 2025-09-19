@@ -58,3 +58,4 @@ Big Thanks to </br>
 <https://stackoverflow.com/questions/33650974/opencv-python-read-specific-frame-using-videocapture></br>
 <https://stackoverflow.com/questions/29789554/tkinter-draw-rectangle-using-a-mouse></br>
 <https://stackoverflow.com/questions/32289175/list-of-all-tkinter-events></br>
+<https://stackoverflow.com/questions/63418203/is-there-any-way-to-track-the-geometry-of-tkinter-without-using-while-true>
