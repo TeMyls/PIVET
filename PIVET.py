@@ -120,7 +120,7 @@ class Application(tk.Tk):
         self.bar_progress.pack(side="left",  fill='y', anchor="w")
         
         
-        self.bind("<Configure>", lambda:self.frame_navigator.on_window_resize)
+        self.bind("<Configure>", lambda _ :self.frame_navigator.on_window_resize())
         
        
         self.current_directory = getcwd()
@@ -1952,7 +1952,7 @@ class MediaFrameNav(ttk.Frame):
             to = 100,
             orient = "horizontal",
             length=canvas_width,
-            command = self.slide_frame
+            command = lambda _ :self.slide_frame(_)
             
             
         )
